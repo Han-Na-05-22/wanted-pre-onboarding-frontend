@@ -147,7 +147,7 @@ const Todo = () => {
                   autoComplete="edit"
                   required
                   onChange={handleChangeInput}
-                  data-testid="new-todo-input"
+                  data-testid="modify-input"
                   className="w-full flex-auto  px-3.5 rounded-md border-0 bg-white/5 py-2 shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500  sm:leading-6"
                 />
               ) : (
